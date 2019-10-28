@@ -1,8 +1,7 @@
 # NoSQL-interogation-language
 Simple interogation language for a NoSQL database
 
-    The program aims to simulate the implementation of multi-node NoSQL database that supports a simple language 
-    of interrogation. Thus, it supports the following set of commands:
+    The program aims to simulate the implementation of multi-node NoSQL database that supports a simple query language. Thus, it supports the following set of commands:
 
 
 		-- Creation of the database - the command by which the database is created with a specified number 
