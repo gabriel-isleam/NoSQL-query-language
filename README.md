@@ -39,7 +39,8 @@ Simple interogation language for a NoSQL database
 		displayed the message "EMPTY DB".
 
 
-		-- Clean-up - the command that deletes the instances with a lower timestamp than the one given as a parameter.
+		-- Clean-up - the command that deletes the instances with a lower timestamp than the one given 
+		as a parameter.
 
 
 
