@@ -1,13 +1,16 @@
 # NoSQL-interogation-language
 Simple interogation language for a NoSQL database
 
-    The program aims to simulate the implementation of multi-node NoSQL database that supports a simple language of interrogation. Thus, it supports the following set of commands:
+    The program aims to simulate the implementation of multi-node NoSQL database that supports a simple language 
+    of interrogation. Thus, it supports the following set of commands:
 
 
-		-- Creation of the database - the command by which the database is created with a specified number of nodes. Also, it is specified the maximum capacity of each node.
+		-- Creation of the database - the command by which the database is created with a specified number 
+		of nodes. Also, it is specified the maximum capacity of each node.
 
 
-		-- Entity creation - the command by which a new entity is created and added to the list (array) of already existing entities, together with the list of attributes, specifying their name and type, but also the replication factor - rf (number of copies of one instance).
+		-- Entity creation - the command by which a new entity is created and added to the list (array) of 
+		already existing entities, together with the list of attributes, specifying their name and type, but also the replication factor - rf (number of copies of one instance).
 
 
 		-- Instance insertion - the command by which an instance of an entity is inserted into the database; so it is repeatedly search (rf times) an appropiate node for insertion, which means a node that has not yet reached its maximum capacity but at the same time is the busiest node and does not already have that instance.
